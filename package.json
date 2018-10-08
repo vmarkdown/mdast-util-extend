@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev1": "webpack -w --config ./examples/webpack.config.js",
+    "dev": "webpack-dev-server --config ./examples/webpack.config.js",
+    "build": "webpack --config ./webpack.config.js",
+    "dist": "NODE_ENV=production webpack -p --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "mdast-util-to-string": "^1.0.5",
+    "remark-parse": "^5.0.0",
+    "to-vfile": "^5.0.1",
+    "unified": "^7.0.0"
+  },
+  "dependencies": {}
+}
